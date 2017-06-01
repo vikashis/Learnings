@@ -12,7 +12,7 @@ Type escape button
 Type :wq 
 
 ANother option to commit
-Git Commit -m "comments" 
+Git Commit -m "comments"
 
 To add all files
 Git add .
@@ -43,4 +43,9 @@ get merge tools to resolve
 
 REMOTE REPOSITORY
 git remote   ...to list the remote repo
-git clone    ...to clone local to a remote repo
+git clone    https://github.com/vikashis/Learnings.git            ...to clone local to a remote repo
+cd to the respective directory
+git fetch origin  .....get the server items
+git pull origin   ....get the server items
+git push origin master  .....upload the new files
+
