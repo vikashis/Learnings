@@ -1,0 +1,46 @@
+Install git from git-scm.com
+git init --> initialize repository in the curent folder
+It creates hidden folders
+Git status --> to find status at any given time
+
+Git add doc --> to add a new file
+
+Git commit
+Type i to go to insert mode
+Type your comments
+Type escape button
+Type :wq 
+
+ANother option to commit
+Git Commit -m "comments"
+
+To add all files
+Git add .
+Git add *.html
+
+To ignore files
+Create .ignore file with below command
+touch .gitignore ####this might not work in windows.....
+Create the text file gitignore.txt.
+Open it in a text editor and add your rules, then save and close.
+Hold SHIFT, right click the folder you're in, then select Open command window here.
+Then rename the file in the command line, with ren gitignore.txt .gitignore.
+
+
+Create branch
+git branch MyBranch
+
+To move to the branch
+git checkout MyBranch
+
+To move to main branch
+git checkout master
+
+To merge branches
+git merge MyBranch
+
+get merge tools to resolve 
+
+REMOTE REPOSITORY
+git remote   ...to list the remote repo
+git clone    ...to clone local to a remote repo
