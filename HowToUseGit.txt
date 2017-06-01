@@ -12,7 +12,7 @@ Type escape button
 Type :wq 
 
 ANother option to commit
-Git Commit -m "comments"
+Git Commit -m "comments" 
 
 To add all files
 Git add .
